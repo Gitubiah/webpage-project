@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    padding: 15px;
+    display: grid;
+    text-align: center;
+}
+
+.navbar li{
+    float: left;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: auto;
+}
+main{
+    border: 2px solid blue;
+    border-radius: 5px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content:flex-start ;
+    gap: 1em;
+    margin: auto;
+}
+.box-1{
+    border: 0px;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+.box-2{
+    border: 0px;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.box-3{
+    border: 0px;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.box-4{
+    border: 0px;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.box-5{
+    border: 0px;
+    padding: 20px;
+    margin: 20px;
+
+}
+@media screen and (max-width: 780px) {
+    .container {display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content:flex-start ;
+        gap: 1em;
+        margin: auto;}
+.box-1{
+    color: midnightblue;
+}
+.box-2{
+    color: midnightblue;
+}
+.box-3{
+    color: midnightblue;
+}
+.box-4{
+    color: midnightblue;
+}
+.box-5{
+   color: midnightblue;
+}
+body{
+    background-color: black;
+    text-align: center;
+    width: auto;
+}
+main{
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+}
